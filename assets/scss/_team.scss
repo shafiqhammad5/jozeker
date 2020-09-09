@@ -1,0 +1,62 @@
+
+
+.team-area {
+
+  .single-team {
+    text-align: center;
+    padding: 0;
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      padding: 0 25px 30px;
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+      }
+
+      .social {
+        justify-content: center;
+
+        li {
+          margin: 0;
+
+          a {
+            width: 35px;
+            height: 35px;
+            background: rgba($body-color, .1);
+            color: $body-color;
+            margin: 0 5px;
+            font-size: 14px;
+
+            &:hover {
+              background: $theme-color;
+              color:$white;
+            }
+          }
+        }
+      }
+    }
+
+    &.color-1 {
+      border-color: $color-1;
+
+      .social li a:hover {
+        background: $color-1;
+      }
+    }
+    &.color-2 {
+      border-color: $color-2;
+
+      .social li a:hover {
+        background: $color-2;
+      }
+    }
+  }
+}

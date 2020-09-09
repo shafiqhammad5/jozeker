@@ -1,0 +1,119 @@
+
+.service-area {
+
+    .single-service {
+        text-align: center;
+
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            text-align: left;
+            margin-bottom: 30px;
+
+            li {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 8px;
+                display: flex;
+
+                i {
+                    margin-top: 7px;
+                    margin-right: 10px;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .main-btn {
+            text-transform: none;
+        }
+
+        &.color-1 {
+            border-color: $color-1;
+            ul {
+                li {
+                    i {
+                        color: $color-1;
+                    }
+                }
+            }
+            .main-btn {
+                background-color: $color-1;
+            }
+        }
+        &.color-2 {
+            border-color: $color-2;
+            ul {
+                li {
+                    i {
+                        color: $color-2;
+                    }
+                }
+            }
+            .main-btn {
+                background-color: $color-2;
+            }
+        }
+        &.color-3 {
+            border-color: $color-3;
+            ul {
+                li {
+                    i {
+                        color: $color-3;
+                    }
+                }
+            }
+            .main-btn {
+                background-color: $color-3;
+            }
+        }
+        &.color-4 {
+            border-color: $color-4;
+            ul {
+                li {
+                    i {
+                        color: $color-4;
+                    }
+                }
+            }
+            .main-btn {
+                background-color: $color-4;
+            }
+        }
+    }
+
+
+}
+
+.box-style {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background: $white;
+    padding: 40px 25px;
+    border-bottom: 4px solid $theme-color;
+    @include box-shadow(0px 3px 35px rgba(218, 222, 228, 0.3));
+
+
+    .image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+}

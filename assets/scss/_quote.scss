@@ -1,0 +1,35 @@
+
+.quote-area {
+
+  background: #F0F0FC;
+
+  .left-wrapper {
+    padding-left: 25px;
+
+    .title {
+      position: relative;
+      margin-bottom: 30px;
+
+      &::before {
+        content: '';
+        position:absolute;
+        width: 5px;
+        height: calc(100% - 7px);
+        background: $theme-color;
+        left: -25px;
+        top: 7px;
+      }
+    }
+  }
+}
+
+.marketing-area {
+
+  .single-marketing {
+    text-align: center;
+
+    &.color-5 {
+      border-color: $color-5;
+    }
+  }
+}

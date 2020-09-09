@@ -1,0 +1,31 @@
+
+
+.client-logo-area {
+
+  .client-logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    @media #{$md} {
+      justify-content: center;
+    }
+    @media #{$xs} {
+      justify-content: center;
+    }
+
+    .single-logo {
+      width: 210px;
+      padding: 10px;
+
+      @media #{$lg} {
+        width: 185px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

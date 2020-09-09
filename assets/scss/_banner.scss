@@ -1,0 +1,12 @@
+
+
+.banner-area {
+  padding: 250px 0 120px;
+
+  @media #{$md} {
+    padding: 150px 0 70px;
+  }
+  @media #{$xs} {
+    padding: 150px 0 70px;
+  }
+}
